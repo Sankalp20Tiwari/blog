@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { login as authLogin } from '../store/authSlice';
-import { Button, Input, Logo } from './index.js';
+import { Button, Input } from './index.js';
 import { useDispatch } from 'react-redux';
 import authService from '../appwrite/auth';
 import { useForm } from 'react-hook-form';
@@ -45,7 +45,7 @@ function Login() {
       <div className='flex-1 max-w-sm p-6 bg-white rounded-lg shadow-lg border  border-black/10'>
         <div className='mb-4 flex justify-center'>
           <span className='inline-block w-24'>
-            <Logo width='100%' />
+           <h1 className='text-3xl text-black text-center'>.blog</h1>
           </span>
         </div>
         <h2 className='text-center text-2xl font-bold leading-tight text-black'>Sign in to your account</h2>
