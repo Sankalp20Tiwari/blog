@@ -44,6 +44,7 @@ function Login() {
       </div>
 
       {/* Right Side - Login Form */}
+      <div className='flex items-center justify-center'>
       <div className='flex-1 max-w-sm w-full p-6 bg-white rounded-lg shadow-lg border border-black/10 flex justify-center items-center'>
         <div className='w-full'>
           <div className='mb-4 flex justify-center'>
@@ -86,6 +87,8 @@ function Login() {
           </form>
         </div>
       </div>
+      </div>
+     
     </div>
   );
 }
