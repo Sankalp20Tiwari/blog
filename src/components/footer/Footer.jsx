@@ -10,7 +10,7 @@ function Footer() {
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
                         <div className="flex h-full flex-col justify-between">
                             <div className="mb-4 inline-flex items-center">
-                               <h1 className='text-white text-6xl text-center'>.blog</h1>
+                               <h1 className='text-white text-3xl text-center'>.blog</h1>
                             </div>
                             <div>
                                 <p className="text-sm text-white">
@@ -19,7 +19,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full p-6 md:w-1/2 lg:w-2/12">
+                    {/* <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-white">
                                 Company
@@ -133,7 +133,7 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>
