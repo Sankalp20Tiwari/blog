@@ -18,15 +18,15 @@ function Home() {
     };
 
     return (
-        <div className='relative min-h-screen bg-gray-900'>
+        <div className='relative min-h-screen '>
             {/* Hero Section */}
-            <div className='relative bg-black py-16'>
+            <div className='relative '>
                 <Container>
                     <div className='absolute inset-0'>
-                        <div className='w-full h-full bg-gray-800 opacity-80' />
+                        <div className='w-full h-full bg-gradient-to-r from-gray-900 to-grayopacity-80' />
                     </div>
                     <div className='relative z-10 text-center text-white'>
-                        <h1 className='text-5xl font-extrabold mb-4'>
+                        <h1 className='text-5xl font-extrabold mb-4 '>
                             Welcome to Blog Forge
                         </h1>
                         <p className='text-lg mb-4'>
@@ -47,7 +47,7 @@ function Home() {
             </div>
             
             {/* Features Section */}
-            <div className='py-16 bg-gray-800 text-center'>
+            <div className='py-16 bg-gradient-to-r from-gray-900 to-gray text-center'>
                 <Container>
                     <h2 className='text-3xl font-semibold mb-6 text-white'>
                         Our Features
@@ -70,7 +70,7 @@ function Home() {
             </div>
 
             {/* Customer Reviews Section */}
-            <div className='py-16 bg-gray-900'>
+            <div className='py-16 bg-gradient-to-r from-gray-900 to-gray'>
                 <Container>
                     <h2 className='text-3xl font-semibold mb-6 text-center text-white'>
                         What Our Users Say
@@ -97,7 +97,7 @@ function Home() {
             </div>
 
             {/* Frequently Asked Questions Section */}
-            <div className='py-16 bg-gray-800'>
+            <div className='py-16 bg-gradient-to-r from-gray-900 to-gray'>
                 <Container>
                     <h2 className='text-3xl font-semibold mb-6 text-center text-white'>
                         Frequently Asked Questions
