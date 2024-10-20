@@ -40,7 +40,7 @@ function Home() {
                         {!authStatus ? (
                             <button 
                                 onClick={handleGetStarted}
-                                className='px-8 py-3 mt-4 bg-yellow-500 text-gray-900 rounded-full hover:bg-yellow-400 transition-transform transform hover:scale-105'>
+                                className='px-8 py-3 mt-4 bg-gray-800 text-white rounded-full hover:scale-150 transition-transform transform '>
                                 Get Started
                             </button>
                         ) : (
@@ -82,19 +82,19 @@ function Home() {
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
                         <div className='p-6 bg-gradient-to-r from-gray-900 to-gray rounded-lg shadow'>
                             <p className='text-lg text-gray-300'>"I love how easy it is to share my thoughts and connect with others. Blog Forge has been a great platform for me to start writing!"</p>
-                            <p className='mt-4 text-sm font-bold text-yellow-400'>- Jane Doe</p>
+                            <p className='mt-4 text-sm font-bold text-white'>- Jane Doe</p>
                         </div>
                         <div className='p-6 bg-gradient-to-r from-gray-700 to-gray rounded-lg shadow'>
                             <p className='text-lg text-gray-300'>"The community here is amazing. I've learned so much from other writers and found a new passion for storytelling!"</p>
-                            <p className='mt-4 text-sm font-bold text-yellow-400'>- John Smith</p>
+                            <p className='mt-4 text-sm font-bold text-white'>- John Smith</p>
                         </div>
                         <div className='p-6 bg-gradient-to-r from-gray-900 to-gray rounded-lg shadow'>
                             <p className='text-lg text-gray-300'>"A perfect place for aspiring writers to grow and get their voices heard. Highly recommend!"</p>
-                            <p className='mt-4 text-sm font-bold text-yellow-400'>- Emily Johnson</p>
+                            <p className='mt-4 text-sm font-bold text-white'>- Emily Johnson</p>
                         </div>
                         <div className='p-6 bg-gradient-to-r from-gray-700 to-gray rounded-lg shadow'>
                             <p className='text-lg text-gray-300'>"Blog Forge makes it so easy to publish and share stories. The user interface is clean, and the tools are user-friendly."</p>
-                            <p className='mt-4 text-sm font-bold text-yellow-400'>- Michael Brown</p>
+                            <p className='mt-4 text-sm font-bold text-white'>- Michael Brown</p>
                         </div>
                     </div>
                 </Container>
@@ -124,10 +124,10 @@ function Home() {
                                 <div
                                     onClick={() => toggleFAQ(index)}
                                     className='flex justify-between items-center cursor-pointer'>
-                                    <h3 className='text-xl font-bold text-yellow-400'>
+                                    <h3 className='text-xl font-bold text-white'>
                                         {faq.question}
                                     </h3>
-                                    <span className='text-xl text-yellow-400'>
+                                    <span className='text-xl text-black'>
                                         {activeFAQ === index ? '-' : '+'}
                                     </span>
                                 </div>

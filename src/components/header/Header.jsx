@@ -40,9 +40,9 @@ function Header() {
     <header className='py-3 bg-gradient-to-r from-gray-900 to-gray fixed top-0 left-0 w-full z-50'>
       <Container>
         <nav className='flex'>
-          <div className='mr-4'>
+          <div className='mr-auto'>
             <Link to=''>
-              <h1 className='text-white text-4xl'>.blog</h1>
+              <h1 className='text-white text-4xl hover:scale-150 '>.blog</h1>
             </Link>
           </div>
           <ul className='flex ml-auto'>
@@ -51,7 +51,7 @@ function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className='inline-block px-4 py-2 duration-200 text-white hover:bg-yellow-500 hover:text-gray-900 rounded-full 
+                    className='inline-block px-4  duration-200 text-white text-lg  rounded-full hover:scale-150 hover:text-gray-900
                       md:px-4 sm:px-2' 
                   >
                     {item.name}
