@@ -51,7 +51,7 @@ function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className='inline-block px-4  duration-200 text-white text-lg  rounded-full hover:scale-150 hover:text-gray-900
+                    className='inline-block px-4 pt-3 duration-200 text-white text-lg  rounded-full hover:scale-150 hover:text-gray-900
                       md:px-4 sm:px-2' 
                   >
                     {item.name}
@@ -72,4 +72,7 @@ function Header() {
 }
 
 export default Header;
+
+
+
 
