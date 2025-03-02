@@ -49,12 +49,12 @@ Ensure you have the following installed:
 4. **Configure environment variables:**
    Create a `.env` file in the root directory and define the necessary environment variables:
    ```sh
-  VITE_APPWRITE_URL=<your-appwrite-url>
-  VITE_APPWRITE_PROJECT_ID=<your-appwrite-project-id> 
-  VITE_APPWRITE_DATABASE_ID=<your-appwrite-database-id>
-  VITE_APPWRITE_COLLECTION_ID=<your-appwrite-collection-id>
-  VITE_APPWRITE_BUCKET_ID=<your-appwrite-bucket-id>
-  VITE_TINYMCE_API_KEY=<your-tinymce-api-key>
+   VITE_APPWRITE_URL=<your-appwrite-url>
+   VITE_APPWRITE_PROJECT_ID=<your-appwrite-project-id> 
+   VITE_APPWRITE_DATABASE_ID=<your-appwrite-database-id>
+   VITE_APPWRITE_COLLECTION_ID=<your-appwrite-collection-id>
+   VITE_APPWRITE_BUCKET_ID=<your-appwrite-bucket-id>
+   VITE_TINYMCE_API_KEY=<your-tinymce-api-key>
    ```
 5. **Run the development server:**
    ```sh
