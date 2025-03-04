@@ -33,16 +33,7 @@ function Signup() {
             <div className="mb-4 flex justify-center">
                 <h1 className='text-4xl text-white text-center'>.blog</h1>
             </div>
-            <h2 className="text-center text-2xl leading-tight text-white">Sign up to create account</h2>
-            <p className="mt-2 text-center text-base text-white">
-                Already have an account?&nbsp;
-                <Link
-                    to="/login"
-                    className="font-medium text-gray-900 transition-all duration-200 hover:underline"
-                >
-                    Sign In
-                </Link>
-            </p>
+            <h2 className="text-center text-2xl leading-tight text-white mb-5">Sign up to create account</h2>
             {error && <p className="text-red-600 mt-4 text-center">{error}</p>}
             <form onSubmit={handleSubmit(create)}>
                 <div className='space-y-5'>
@@ -73,6 +64,17 @@ function Signup() {
                         {...register("password", { required: true })}
                     />
                     <Button type='submit' className='w-full'>Create Account</Button>
+                    <p className="mt-2 text-center text-base text-white">
+                Already have an account?&nbsp;
+                <span className='mx-2'>
+                <Link
+                    to="/login"
+                    className="font-medium text-white transition-all duration-200 underline"
+                >
+                    Sign In
+                </Link>
+                </span>
+            </p>
                 </div>
             </form>
         </div>

@@ -34,11 +34,15 @@ function Login() {
       <div className='hidden md:flex flex-1 max-w-md px-6 text-white'>
         <div className='flex flex-col justify-center h-full'>
           <h2 className='text-4xl font-extrabold mb-4'>Welcome Back!</h2>
-          <p className='text-lg mb-6'>
+          <p className='text-lg mb-6 text-neutral-400'>
             Sign in to explore the latest posts, connect with our community, and continue where you left off. Log in to access your account and enjoy a personalized experience.
           </p>
-          <p className='text-lg'>
-            Don't have an account? <Link to='/signup' className='underline text-black hover:text-yellow-400'>Sign up here</Link> and join our creative community!
+          <p className='text-lg text-neutral-400'>
+            Don't have an account?
+            <span className='mx-2'> 
+            <Link to='/signup' className='underline text-white hover:text-yellow-400'>Sign up here</Link>
+            </span>
+            and join our creative community!
           </p>
         </div>
       </div>
@@ -53,9 +57,7 @@ function Login() {
             </span>
           </div>
           <h2 className='text-center text-2xl  leading-tight text-white'>Sign in to your account</h2>
-          <p className='mt-2 text-center text-base text-white'>
-            Don’t have an account? <Link to='/signup' className='font-medium underline text-gray-900'>Sign Up</Link>
-          </p>
+
           {error && <p className='text-red-300 mt-8 text-center'>{error}</p>}
           <form onSubmit={handleSubmit(login)} className='mt-8'>
             <div className='space-y-5'>
@@ -85,6 +87,9 @@ function Login() {
               <Button type='submit' className='w-full bg-blue-600 text-gray-800'>
                 Sign In
               </Button>
+              <p className='mt-2 text-center text-muted-foreground text-white '>
+                Don’t have an account? <span className='mx-2'><Link to='/signup' className='font-medium underline text-white'>Sign Up</Link></span>
+            </p>
             </div>
           </form>
         </div>
