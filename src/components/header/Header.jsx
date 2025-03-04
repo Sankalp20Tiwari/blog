@@ -33,7 +33,7 @@ function Header() {
         <nav className='flex justify-between items-center'>
           <div className='mr-auto'>
             <Link to=''>
-              <h1 className='text-white text-4xl hover:scale-150'>.blog</h1>
+              <h1 className='text-white text-4xl '>.blog</h1>
             </Link>
           </div>
 
@@ -51,7 +51,7 @@ function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => handleNavClick(item.slug)}
-                    className='inline-block px-4 pt-3 duration-200 text-white text-lg rounded-full hover:scale-150 hover:text-gray-900 md:px-4 sm:px-2'
+                    className='inline-block px-4 pt-3 duration-200 text-white text-lg rounded-full  hover:text-gray-900 md:px-4 sm:px-2'
                   >
                     {item.name}
                   </button>
